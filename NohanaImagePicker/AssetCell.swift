@@ -59,7 +59,10 @@ class AssetCell: UICollectionViewCell {
         self.asset = asset
         self.nohanaImagePickerController = nohanaImagePickerController
         self.pickButton.isSelected = nohanaImagePickerController.pickedAssetList.isPicked(asset)
+		if let selectionTint = nohanaImagePickerController.config.color.selectionTint {
+			overlayView.backgroundColor = selectionTint
+		}
         self.overlayView.isHidden = !pickButton.isSelected
-        self.pickButton.isHidden = !(nohanaImagePickerController.canPickAsset(asset) )
+        self.pickButton.isHidden = !(nohanaImagePickerController.canPickAsset(asset))
     }
 }
