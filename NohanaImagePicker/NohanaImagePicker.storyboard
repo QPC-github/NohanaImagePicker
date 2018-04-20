@@ -117,7 +117,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="2" id="xXL-vg-bZb">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="2" sectionInsetReference="safeArea" id="xXL-vg-bZb">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="44" height="44"/>
@@ -151,16 +151,16 @@
                                     </subviews>
                                 </view>
                                 <constraints>
-                                    <constraint firstAttribute="trailingMargin" secondItem="oDB-be-mWY" secondAttribute="trailing" constant="-8" id="0u6-oO-0PG"/>
-                                    <constraint firstItem="WKb-lP-sq5" firstAttribute="leading" secondItem="gNu-ad-t1d" secondAttribute="leadingMargin" constant="-8" id="Gen-Gr-Deg"/>
-                                    <constraint firstItem="oDB-be-mWY" firstAttribute="top" secondItem="gNu-ad-t1d" secondAttribute="topMargin" constant="-8" id="HMs-XU-000"/>
-                                    <constraint firstItem="MT5-kg-1gq" firstAttribute="top" secondItem="gNu-ad-t1d" secondAttribute="topMargin" constant="-8" id="ISy-ev-P19"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="WKb-lP-sq5" secondAttribute="bottom" constant="-8" id="Lnf-5f-guH"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="MT5-kg-1gq" secondAttribute="trailing" constant="-8" id="QL8-B4-uFE"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="MT5-kg-1gq" secondAttribute="bottom" constant="-8" id="RNL-zl-et0"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="WKb-lP-sq5" secondAttribute="trailing" constant="-8" id="TF3-Wc-2HZ"/>
-                                    <constraint firstItem="MT5-kg-1gq" firstAttribute="leading" secondItem="gNu-ad-t1d" secondAttribute="leadingMargin" constant="-8" id="afC-Dk-wv1"/>
-                                    <constraint firstItem="WKb-lP-sq5" firstAttribute="top" secondItem="gNu-ad-t1d" secondAttribute="topMargin" constant="-8" id="l0l-Ge-QIn"/>
+                                    <constraint firstItem="WKb-lP-sq5" firstAttribute="trailing" secondItem="oDB-be-mWY" secondAttribute="trailing" id="0u6-oO-0PG"/>
+                                    <constraint firstItem="WKb-lP-sq5" firstAttribute="leading" secondItem="gNu-ad-t1d" secondAttribute="leading" id="Gen-Gr-Deg"/>
+                                    <constraint firstItem="oDB-be-mWY" firstAttribute="top" secondItem="WKb-lP-sq5" secondAttribute="top" id="HMs-XU-000"/>
+                                    <constraint firstItem="MT5-kg-1gq" firstAttribute="top" secondItem="WKb-lP-sq5" secondAttribute="top" id="ISy-ev-P19"/>
+                                    <constraint firstAttribute="bottom" secondItem="WKb-lP-sq5" secondAttribute="bottom" id="Lnf-5f-guH"/>
+                                    <constraint firstItem="WKb-lP-sq5" firstAttribute="trailing" secondItem="MT5-kg-1gq" secondAttribute="trailing" id="QL8-B4-uFE"/>
+                                    <constraint firstItem="WKb-lP-sq5" firstAttribute="bottom" secondItem="MT5-kg-1gq" secondAttribute="bottom" id="RNL-zl-et0"/>
+                                    <constraint firstAttribute="trailing" secondItem="WKb-lP-sq5" secondAttribute="trailing" id="TF3-Wc-2HZ"/>
+                                    <constraint firstItem="MT5-kg-1gq" firstAttribute="leading" secondItem="WKb-lP-sq5" secondAttribute="leading" id="afC-Dk-wv1"/>
+                                    <constraint firstItem="WKb-lP-sq5" firstAttribute="top" secondItem="gNu-ad-t1d" secondAttribute="top" id="l0l-Ge-QIn"/>
                                 </constraints>
                                 <size key="customSize" width="78" height="78"/>
                                 <connections>
@@ -192,7 +192,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1SX-Sl-Deo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1749" y="214"/>
+            <point key="canvasLocation" x="1747.5" y="213.75"/>
         </scene>
         <!--Asset Detail List View Controller-->
         <scene sceneID="jjo-0p-7dH">
